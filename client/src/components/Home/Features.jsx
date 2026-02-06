@@ -18,10 +18,10 @@ const Features = () => {
         window.open("https://algo-rank-333.vercel.app/")
     }
     const handleClick1=()=>{
-        window.open("https://algo-rank-333.vercel.app/")
+        window.open("https://resumedemo-steel.vercel.app/")
     }
     const handleClick2=()=>{
-        window.open("https://algo-rank-333.vercel.app/")
+        window.open("https://career-wise-livid.vercel.app/")
     }
   return (
   <>
@@ -31,7 +31,7 @@ const Features = () => {
             onMouseLeave={() => setTilt1({ x: 0, y: 0 })}
             style={{ transform: `perspective(1000px) rotateX(${tilt1.x}deg) rotateY(${tilt1.y}deg)` }}
         >
-            <img src="https://images.unsplash.com/photo-1514432324607-2e4c00c3d881?q=80&w=2000&auto=format&fit=crop"
+            <img src="dsa.svg"
                 alt="DSA & Problem Solving" className="w-full h-48 object-cover"
             />
             <div className="p-6">
@@ -48,7 +48,7 @@ const Features = () => {
             onMouseLeave={() => setTilt2({ x: 0, y: 0 })}
             style={{ transform: `perspective(1000px) rotateX(${tilt2.x}deg) rotateY(${tilt2.y}deg)` }}
         >
-            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2000&auto=format&fit=crop"
+            <img src="resume.svg"
                 alt="Smart Resume Builder" className="w-full h-48 object-cover"
             />
             <div className="p-6">
@@ -65,7 +65,7 @@ const Features = () => {
             onMouseLeave={() => setTilt3({ x: 0, y: 0 })}
             style={{ transform: `perspective(1000px) rotateX(${tilt3.x}deg) rotateY(${tilt3.y}deg)` }}
         >
-            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2000&auto=format&fit=crop"
+            <img src="interview.svg"
                 alt="Interview Preparation" className="w-full h-48 object-cover"
             />
             <div className="p-6">
